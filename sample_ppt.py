@@ -37,7 +37,7 @@ def combine_presentations(ppt_files, max_slides , output_file ):
 
             
             # Add slide layout to combined presentation
-            slide_layout = combined_ppt.slide_layouts[0]
+            slide_layout = combined_ppt.slide_layouts[6]
             new_slide = combined_ppt.slides.add_slide(slide_layout)
             
             
